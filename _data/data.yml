@@ -3,191 +3,209 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Rômulo Cerqueira
+    tagline: Senior Robotics Engineer | Tech Lead
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: romulogcerqueira@gmail.com
+    phone: +55 71 99192 6693
+    # citizenship:
+    # website: blog.webjeda.com #do not add http://
+    linkedin: romulogcerqueira
+    # xing: alandoe
+    github: romulogcerqueira
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://bit.ly/3A4xbJt
 
     languages:
-      - idiom: English
+      - idiom: Portuguese
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Soccer
         link:
 
-      - item: Snowboarding
+      - item: Tennis
         link:
 
-      - item: Cooking
+      - item: Gaming
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Experienced Software Engineer in the development of advanced robotic systems mainly for subsea environments. Interested in Robotics, Autonomy, Acoustics, Perception, Simulation, Machine Learning, and Team Leadership. Skilled in C/C++, Python, Ruby, ROS/ROCK, OpenCV, Gazebo, Docker, Boost, Qt, and Git development in Linux. Strong research professional with a doctorate focused on Robotics, and several scientific papers and patents published.
+
+      Over 4 years, I was part of the FlatFish project, an autonomous underwater vehicle for repeated inspections of deep-sea O&G installations. Next, I led the JIRo project, a robotic system specialized in cleaning and inspecting offshore flexible joints. Both projects were developed with Shell Brazil and DFKI GmbH.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: PhD in Mechatronics
+      university: Federal University of Bahia
+      time: 2014 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Development of a multi-device sonar simulator based on rasterization and ray-tracing techniques for real-time underwater robotic applications. The source code is available at [github.com/romulogcerqueira/sonar_simulation](http://github.com/romulogcerqueira/sonar_simulation).
+    - degree: PgD in Network Eng. and IT
+      university: National Institute of Telecommunications
+      time: 2012 - 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Proposal of a SaaS (Software as a Service) model for the telecommunication market.
+    - degree: MSc in Electrical Engineering
+      university: Federal University of Bahia
+      time: 2010 - 2012
+      details: |
+        Development of an autonomous navigation system based on reinforcement learning and knowledge bases for Linux ARM microcontrollers and embedded on mobile soccer robots.
+    - degree: BSc in Computer Science
+      university: State University of Santa Cruz
+      time: 2006 - 2009
+      details: |
+        Development of InfoGraph3D, a multimedia and interactive system to aid the teaching of Computer Graphics with OpenGL, turning the learning more intuitive and effective.
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Robotics Engineer | Tech Lead
+      time: 2022 - Present
+      company: SENAI CIMATEC, Salvador, Brazil
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Leading the second phase of JIRo project with a commercial partner.
+    - role: Senior Robotics Engineer | Tech Lead
+      time: 2018 - 2022
+      company: SENAI CIMATEC, Salvador, Brazil
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
+        Leading an international engineering team on JIRo project, I was responsible for:
+        - Coordinate end-to-end robot technology development, design, validation and verification;
+        - Define the system functionalities, with a focus on reusability and reliability;
+        - Drive the software team, including simulation, integration of software components, perception, testing, and peer code review with ROS framework;
+        - Assess robot capabilities and plan system improvements in order to meet project requirements;
+        - Integration and tests of JIRo robot with Saab Seaeye's Cougar-XTi ROV;
+        - Sea trials coordination and deployment;
+        - Work as a Guest researcher at DFKI GmbH for robot development and testing, and project management.
+    - role: Robotics Engineer
+      time: 2014 - 2017
+      company: SENAI CIMATEC, Salvador, Brazil
+      details: |
+        As part of the software and integration team of the FlatFish project, I was responsible for:
+        - Development of target tracking system (e.g. pipeline tracking), based on acoustic images;
+        - Development of obstacle avoidance system, from filtering obstacles to planning avoidance paths;
+        - Development of imaging sonar simulator for AUV preliminary tests;
+        - Driver development and system deployment on AUV;
+        - Software integration, testing, peer review, simulation, and debugging with Rock framework;
+        - Experience operating robotic systems at sea;
+        - Work as a Guest researcher at DFKI GmbH for AUV software development and testing.
+    - role: IT Architect Trainee
       time: 2012 - 2014
-      company: Amazon, London
+      company: Oi S.A., Rio de Janeiro, Brazil
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        Special career program for technical development on IT architecture, comprising:
+          - End-to-end solution design based on business needs using market and enterprise standards as TM Forum Frameworx, TOGAF, and SOA;
+          - Maintenance of enterprise as-is, transition, target and reference architectures;
+          - Delivering solutions involving CRM, Cloud, Charging, Billing and OSS/BSS applications.
+    - role: Unix Linux System Administrator
+      time: 2010 - 2010
+      company: ecGlobal, Salvador, Brazil
+      details: |
+        Design and maintenance of Linux/Unix applications and services, including DHCP, DNS, Apache, Samba, server virtualization, LAMP, CUPS, AWStats, and SVN; creation of Ubuntu-based distro for software team development.
+    - role: Software Engineer
+      time: 2009 - 2010
+      company: ecGlobal, Salvador, Brazil
+      details: |
+        Development of social networks for online market research and e-commerce applications using PHP/JavaScript/Ajax, CSS, Elgg framework, and MySQL and PostgreSQL databases.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Main Publications
+    # intro: |
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation"
+        link: "http://www.sciencedirect.com/science/article/abs/pii/S1524070320300278"
+        authors: R. Cerqueira, T. Trocoli, J. Albiez and L. Oliveira
+        conference: Elsevier Graphical Models Journal, 2020.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: A novel GPU-based sonar simulator for real-time applications
+        link: "https://doi.org/10.1016/j.cag.2017.08.008"
+        authors: R. Cerqueira, T. Trocoli, G. Neves, S. Joyeux, J. Albiez and L. Oliveira
+        conference: Elsevier Computers & Graphics Journal, 2017.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Repeated close-distance visual inspections with an AUV
+        link: "https://doi.org/10.1109/OCEANS.2016.7761099"
+        authors: J. Albiez, D. Cesar, C. Gaudig, S. Arnold, R. Cerqueira, T. Trocoli, G. Mimoso, R. Saback and G. Neves
+        conference: OCEANS MTS/IEEE Monterey, 2016.
+
+      - title: The Rock-Gazebo Integration and a Real-Time AUV Simulation
+        link: "https://doi.org/10.1109/LARS-SBR.2015.15"
+        authors: T. Watanabe, G. Neves, R. Cerqueira, T. Trocoli, M. Reis, S. Joyeux and J. Albiez
+        conference: 12th Latin American Robotics Symposium (LARS), 2015.
+
+      - title: "From Reactive to Cognitive Agents: Extending Reinforcement Learning to Generate Symbolic Knowledge Bases"
+        link: "https://doi.org/10.1109/LARS.2013.77"
+        authors: R. Cerqueira, A.L. da Costa, S. McGill, D. Lee and G. Pappas
+        conference: 12th Latin American Robotics Symposium (LARS), 2013.
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Robotics
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Autonomous Systems
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Acoustics
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Perception
+        level: 80%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Simulation
+        level: 95%
+
+      - name: Machine Learning
+        level: 75%
+      
+      - name: Team leadership
+        level: 95%
+
+      - name: IT Architecture
+        level: 70%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
