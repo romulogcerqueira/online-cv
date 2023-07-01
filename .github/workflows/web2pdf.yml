@@ -1,7 +1,7 @@
 name: create PDF file
-on: 
+on:
   push:
-    branches: 
+    branches:
       - gh-pages
 jobs:
   build:
@@ -11,10 +11,10 @@ jobs:
     - name: convert page to pdf
       uses: wei/curl@master
       with:
-        args: https\://v2.convertapi.com/convert/web/to/pdf\?download\=attachment\&secret\=${{ secrets.CONVERTAPI }}\&url\=https%3A%2F%2Fromulogcerqueira.github.io/online-cv/ -o cv_en.pdf
+        args: https\://v2.convertapi.com/convert/web/to/pdf\?download\=attachment\&secret\=${{ secrets.CONVERTAPI }}\&url\=https%3A%2F%2Fromulogcerqueira.github.io/online-cv/ -o automatic_resume_en.pdf
     - name: commit PDF to branch
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: generate PDF from gh-pages
         branch: gh-pages
-        file_pattern: cv_en.pdf
+        file_pattern: automatic_resume_en.pdf
