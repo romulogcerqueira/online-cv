@@ -1,8 +1,6 @@
 name: html to pdf
-  uses: misaelnieto/web_to_pdf_action@master
+uses: misaelnieto/web_to_pdf_action@master
   with:
-    webPageURL: http://romulogcerqueira.github.io/online-cv
-    outputFile: cv_en.pdf
-    usePuppeteer: true
-    useScreen: true
+    webPageURL: https://www.noenieto.com/resume/
+    outputFile: ./path/to/my/resume.pdf
     pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
