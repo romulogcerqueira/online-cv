@@ -57,11 +57,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Experienced Software Engineer with expertise in developing advanced robotic systems for underwater environment. Interested in Robotics, Autonomy, Acoustics, Simulation, Perception, Navigation, and Team Leadership. Skilled in C/C++, Python, Ruby, ROS1/ROS2, Rock, Gazebo, OpenSceneGraph, Docker, Boost, Qt, and Git development in Linux. Strong research professional with a doctorate focused on Robotics, and several scientific papers and patents published.
+      Experienced Software Engineer in developing autonomous robots, mainly for the underwater domain. Has a solid base in Robotics system design, Acoustics, Simulation, Perception, Navigation, and Team Leadership. Skilled in C/C++, Python, Ruby, ROS1/ROS2, Rock, Gazebo, OpenSceneGraph, Docker, Boost, Qt, and Git development in Linux. Strong research professional with a doctorate focused on Robotics, and several scientific papers and patents published.
 
-      At SENAI CIMATEC, I contributed to the development of FlatFish project, an autonomous underwater vehicle designed for repeated inspections of deep-sea oil and gas installations. Later, I led the JIRo project, which focused on developing a robotic tool for cleaning and inspecting offshore flexible joints.
+      At SENAI CIMATEC, I contributed to the development of FlatFish project, an autonomous underwater vehicle for repeated inspections of deep-sea oil and gas installations. Later, I led the JIRo project, which involved creating a robotic tool for cleaning and inspecting offshore flexible joints.
 
-      At Kraken Robotics, I worked on the ThunderFish XL project, a long-range autonomous survey vehicle with hover capabilities to support close-range inspections. Currently, I am leading the JellyFish project, an autonomous underwater vehicle for deep seabed mapping and monitoring.
+      At Kraken Robotics, I worked on the ThunderFish XL project, a long-range autonomous survey vehicle with hover capabilities for close-range inspections. Currently, I am leading the JellyFish project, an autonomous underwater vehicle for deep seabed mapping and monitoring.
 
 education:
     title: Education
