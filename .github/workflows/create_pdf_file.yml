@@ -1,4 +1,29 @@
-uses: markwilson/html2pdf@v1.0
-with:
-  htmlPath: 'index.html'
-  pdfName: 'test'
+name: Convert HTML to PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  convert_to_pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y xvfb wkhtmltopdf
+
+    - name: Run wkhtmltopdf
+      run: |
+        xvfb-run -a wkhtmltopdf input.html output.pdf
+
+    - name: Upload PDF artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: converted-pdf
+        path: output.pdf
