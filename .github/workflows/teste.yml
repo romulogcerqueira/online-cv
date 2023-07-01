@@ -3,7 +3,7 @@ name: HTML to PDF
 on:
   push:
     branches:
-      - main
+      - gh-pages
 
 jobs:
   convertToPDF:
