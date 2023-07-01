@@ -1,6 +1,21 @@
-name: html to pdf
-  uses: fifsky/html-to-pdf-action@master
-  with:
-    htmlFile: ./index.html
-    outputFile: ./resume.pdf
-    pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+name: HTML to PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  convertToPDF:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Convert HTML to PDF
+      uses: fifsky/html-to-pdf-action@master
+      with:
+        htmlFile: ./index.html
+        outputFile: ./resume.pdf
+        pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
