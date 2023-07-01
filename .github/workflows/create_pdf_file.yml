@@ -1,6 +1,4 @@
-steps:
-  - name: Convert https://github.com to PDF
-    uses: "imbhargav5/puppeteer-pdf-action@master"
-    with:
-      url: https://github.com
-      output-file-path: github.pdf
+uses: markwilson/html2pdf@v1.0
+with:
+  htmlPath: 'index.html'
+  pdfName: 'test'
