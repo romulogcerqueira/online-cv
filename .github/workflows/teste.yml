@@ -16,6 +16,13 @@ jobs:
     - name: Convert HTML to PDF
       uses: fifsky/html-to-pdf-action@master
       with:
-        htmlFile: ./index.html
-        outputFile: ./resume.pdf
+        htmlFile: index.html
+        outputFile: resume.pdf
         pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
+    - name: commit PDF to branch
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: HTML to PDF
+        branch: gh-pages
+        file_pattern: resume.pdf
