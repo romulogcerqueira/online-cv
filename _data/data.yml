@@ -8,8 +8,8 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Rômulo Cerqueira
+    tagline: Senior Robotics Engineer | Tech Lead
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -57,12 +57,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Experienced Software Engineer in the development of advanced robotic systems mainly for subsea environments. Interested in Robotics, Autonomy, Acoustics, Perception, Simulation, Machine Learning, and Team Leadership. Skilled in C/C++, Python, Ruby, ROS/ROCK, OpenCV, Gazebo, Docker, Boost, Qt, and Git development in Linux. Strong research professional with a doctorate focused on Robotics, and several scientific papers and patents published.
+
+      Over 4 years, I was part of the FlatFish project, an autonomous underwater vehicle for repeated inspections of deep-sea O&G installations. Next, I led the JIRo project, a robotic system specialized in cleaning and inspecting offshore flexible joints. Both projects were developed with Shell Brazil and DFKI GmbH.
+
 education:
     title: Education
     info:
@@ -182,21 +180,32 @@ projects:
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
     title: OSS Contributions
@@ -218,48 +227,61 @@ oss:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Main Publications
+    # intro: |
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation"
+        link: "http://www.sciencedirect.com/science/article/abs/pii/S1524070320300278"
+        authors: R. Cerqueira, T. Trocoli, J. Albiez and L. Oliveira
+        conference: Elsevier Graphical Models Journal, 2020.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: A novel GPU-based sonar simulator for real-time applications
+        link: "https://doi.org/10.1016/j.cag.2017.08.008"
+        authors: R. Cerqueira, T. Trocoli, G. Neves, S. Joyeux, J. Albiez and L. Oliveira
+        conference: Elsevier Computers & Graphics Journal, 2017.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Repeated close-distance visual inspections with an AUV
+        link: "https://doi.org/10.1109/OCEANS.2016.7761099"
+        authors: J. Albiez, D. Cesar, C. Gaudig, S. Arnold, R. Cerqueira, T. Trocoli, G. Mimoso, R. Saback and G. Neves
+        conference: OCEANS MTS/IEEE Monterey, 2016.
+
+      - title: The Rock-Gazebo Integration and a Real-Time AUV Simulation
+        link: "https://doi.org/10.1109/LARS-SBR.2015.15"
+        authors: T. Watanabe, G. Neves, R. Cerqueira, T. Trocoli, M. Reis, S. Joyeux and J. Albiez
+        conference: 12th Latin American Robotics Symposium (LARS), 2015.
+
+      - title: "From Reactive to Cognitive Agents: Extending Reinforcement Learning to Generate Symbolic Knowledge Bases"
+        link: "https://doi.org/10.1109/LARS.2013.77"
+        authors: R. Cerqueira, A.L. da Costa, S. McGill, D. Lee and G. Pappas
+        conference: 12th Latin American Robotics Symposium (LARS), 2013.
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Robotics
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Autonomous Systems
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Acoustics
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Perception
+        level: 80%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Simulation
+        level: 95%
+
+      - name: Machine Learning
+        level: 75%
+      
+      - name: Team leadership
+        level: 95%
+
+      - name: IT Architecture
+        level: 70%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
