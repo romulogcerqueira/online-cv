@@ -4,7 +4,7 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -13,174 +13,186 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: romulogcerqueira@gmail.com
+    phone: +55 71 99192 6693
+    timezone: America/Bahia Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website:
+    linkedin: romulogcerqueira
+    xing:
+    github: romulogcerqueira
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://drive.google.com/file/d/16KUEQxXWXeueMTf8fTod6iPs75pf3y7k/view?usp=drive_link
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Portuguese
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Soccer
           link:
 
-        - item: Snowboarding
+        - item: Tennis
           link:
 
-        - item: Cooking
+        - item: Gaming
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Experienced Software Engineer in developing autonomous robots, mainly for the underwater domain. Has a solid base in Robotics system design, Acoustics, Simulation, Perception, Navigation, and Team Leadership. Skilled in C/C++, Python, Ruby, ROS1/ROS2, Rock, Gazebo, OpenSceneGraph, Docker, Boost, Qt, and Git development in Linux. Strong research professional with a doctorate focused on Robotics, and several scientific papers and patents published.
-
-      At SENAI CIMATEC, I contributed to the development of FlatFish project, an autonomous underwater vehicle for repeated inspections of deep-sea oil and gas installations. Later, I led the JIRo project, which involved creating a robotic tool for cleaning and inspecting offshore flexible joints.
-
-      At Kraken Robotics, I worked on the ThunderFish XL project, a long-range autonomous survey vehicle with hover capabilities for close-range inspections. Currently, I am leading the JellyFish project, an autonomous underwater vehicle for deep seabed mapping and monitoring.
+      Senior Software Engineer with +10 years of experience in autonomous robots, mainly for the underwater domain. Contributed to the development of three AUV platforms (FlatFish, ThunderFish XL, and JellyFish) and one underwater robotic tool (JIRo) in collaboration with global partners such as Shell, DFKI, Oceaneering, and SAIPEM. Has a solid base in robotics system design, acoustics, simulation, computer vision, navigation, and team leadership. Skilled in C/C++, Python, Ruby, ROS1/ROS2, Rock, Gazebo, OpenCV, OpenSceneGraph, Docker, Qt, and Git development in Linux. Strong research professional with a doctorate focused on robotics, and +25 scientific papers and patents published.
 
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD in Mechatronics
+        university: Federal University of Bahia
+        time: 2014 - 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Development of a multi-device sonar simulator based on rasterization and ray-tracing techniques for real-time underwater robotic applications. The source code is available at [github.com/romulogcerqueira/sonar_simulation](http://github.com/romulogcerqueira/sonar_simulation).
+
+      - degree: PgD in Network Eng. and IT
+        university: National Institute of Telecommunications
+        time: 2012 - 2012
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Proposal of a SaaS (Software as a Service) model for the telecommunication market.
+
+      - degree: MSc in Electrical Engineering
+        university: Federal University of Bahia
+        time: 2010 - 2012
+        details: |
+          Development of an autonomous navigation system based on reinforcement learning and knowledge bases for Linux ARM microcontrollers and embedded on mobile soccer robots.
+
+      - degree: BSc in Computer Science
+        university: State University of Santa Cruz
+        time: 2006 - 2009
+        details: |
+          Development of InfoGraph3D, a multimedia and interactive system to aid the teaching of Computer Graphics with OpenGL, turning the learning more intuitive and effective.
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Robotics Engineer | Tech Lead
+        time: 2022 - Present
+        company: Kraken Robotics, Salvador, Brazil
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Leading a team of 10 engineers on the JellyFish project, an autonomous survey vehicle with hover capabilities, and acting as Software Developer for the Autonomy and Software team, my current responsibilities are:
+            - Coordinating end-to-end robot technology development, design, validation, and verification;
+            - Distributing, guiding, and tracking activities according to project requirements and time constraints;
+            - Proposing software system designs;
+            - Contributing to the development of Kraken Simulator, including sensor virtualization (i.e. imaging sonars, acoustic communication, DVL, INS, etc), system design, 3D scene modeling, and generic interfaces;
+            - Developing device drivers and deploying systems on the AUV;
+            - Conducting software integration, testing, peer review, and debugging with ROS2 framework.
+
+      - role: Senior Robotics Engineer | Tech Lead
+        time: 2018 - 2022
+        company: SENAI CIMATEC, Salvador, Brazil
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
+          Leading a team of 15 engineers on the JIRo project, focused on creating a robotic tool for cleaning and inspecting offshore flexible joints, I was responsible for:
+          - Coordinating end-to-end robot technology development, design, validation, and verification;
+          - Defining system functionalities, with a focus on reusability and reliability;
+          - Distributing, guiding, and tracking activities according to project requirements and time constraints;
+          - Driving the software team, including simulation, software integration, perception, and testing within the ROS framework;
+          - Coordinating sea trials and deployment;
+          - Working in close collaboration with the DFKI team in Bremen, Germany for robot design and development, and project management.
+
+          I also worked as a consultant during the IP handover of JIRo technology to Oceaneering and on the initial designs of the second project phase.
+
+      - role: Robotics Engineer
+        time: 2014 - 2017
+        company: SENAI CIMATEC, Salvador, Brazil
+        details: |
+          As part of the software and integration team of the FlatFish project, an AUV for repeated inspections of oil and gas installations, I was responsible for:
+          - Developing an imaging sonar simulator (singlebeam and multibeam types) for preliminary AUV testing;
+          - Developing a pipeline tracking system based on acoustic images;
+          - Developing an obstacle avoidance system, from filtering obstacles to planning avoidance paths, to ensure safe navigation of the AUV;
+          - Developing device drivers and deploying systems on the AUV;
+          - Conducting software integration, testing, peer review, and debugging with Rock framework;
+          - Gaining experience in operating robotic systems at sea;
+          - Working in close collaboration with the DFKI team for AUV software development and testing in Bremen, Germany.
+
+          I also worked as a consultant during the IP handover of FlatFish technology to SAIPEM.
+
+      - role: IT Architecture Trainee
         time: 2012 - 2014
-        company: Amazon, London
+        company: Oi, Rio de Janeiro, Brazil
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Selected for a special career program for technical development in IT architecture, I was responsible for:
+          - Proposing end-to-end solution designs based on business needs using enterprise standards i.e. TM Forum Frameworx, TOGAF, and SOA;
+          - Evolving enterprise as-is, transition, target, and reference architectures;
+          - Delivering solutions involving CRM, infrastructure as a service (iaas), charging, billing, and OSS/BSS applications.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          I was also awarded a Six Sigma training after proposing an integration solution to reduce revenue loss on the Oi TV platform (approx. R$ 7MM/year).
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Unix Linux System Administrator
+        time: 2010 - 2010
+        company: ecGlobal Solutions, Salvador, Brazil
+        details: |
+          My main responsibilities included:
+          - Developing and evolving Linux/Unix server applications and services, including DHCP, DNS, Apache, Samba, LAMP, CUPS, AWStats, and SVN;
+          - Creating a Ubuntu-based distro for software team development.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - role: Software Developer
+        time: 2009 - 2010
+        company: ecGlobal Solutions, Salvador, Brazil
+        details: |
+          My main responsibilities included:
+          - Developing social networks for online market research and e-commerce applications using PHP/JavaScript/Ajax, CSS, Elgg framework, and MySQL and PostgreSQL databases.
+
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
 # projects:
 #     title: Projects
@@ -209,24 +221,24 @@ projects:
 #         link: "#"
 #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Main Publications
