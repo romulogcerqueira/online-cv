@@ -57,9 +57,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Experienced Software Engineer in the development of advanced robotic systems mainly for subsea environments. Interested in Robotics, Autonomy, Acoustics, Perception, Simulation, Machine Learning, and Team Leadership. Skilled in C/C++, Python, Ruby, ROS/ROCK, OpenCV, Gazebo, Docker, Boost, Qt, and Git development in Linux. Strong research professional with a doctorate focused on Robotics, and several scientific papers and patents published.
+      Experienced Software Engineer with expertise in developing advanced robotic systems for underwater environment. Interested in Robotics, Autonomy, Acoustics, Simulation, Perception, Navigation, and Team Leadership. Skilled in C/C++, Python, Ruby, ROS1/ROS2, Rock, Gazebo, OpenSceneGraph, Docker, Boost, Qt, and Git development in Linux. Strong research professional with a doctorate focused on Robotics, and several scientific papers and patents published.
 
-      Over 4 years, I was part of the FlatFish project, an autonomous underwater vehicle for repeated inspections of deep-sea O&G installations. Next, I led the JIRo project, a robotic system specialized in cleaning and inspecting offshore flexible joints. Both projects were developed with Shell Brazil and DFKI GmbH.
+      At SENAI CIMATEC, I contributed to the development of FlatFish project, an autonomous underwater vehicle designed for repeated inspections of deep-sea oil and gas installations. Later, I led the JIRo project, which focused on developing a robotic tool for cleaning and inspecting offshore flexible joints.
+
+      At Kraken Robotics, I worked on the ThunderFish XL project, a long-range autonomous survey vehicle with hover capabilities to support close-range inspections. Currently, I am leading the JellyFish project, an autonomous underwater vehicle for deep seabed mapping and monitoring.
 
 education:
     title: Education
@@ -276,7 +278,7 @@ skills:
 
       - name: Machine Learning
         level: 75%
-      
+
       - name: Team leadership
         level: 95%
 
